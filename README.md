@@ -28,6 +28,6 @@ Copy redacted.py to /usr/sbin/redacted
 Setup sudo access to redacted
 In /etc/sudoers
 ```sh
-%devlopers  ALL=/usr/sbin/redacted
+%developers  ALL=/usr/sbin/redacted
 ```
 
