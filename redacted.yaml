@@ -1,0 +1,15 @@
+---
+config:
+#Format:
+#- name: master-config
+#  path: filename.yaml
+#  attributes:
+#  - attributes.to.filter
+#  - attribute.two.filter
+- name: master-config
+  path: /etc/origin/master/master-config.yml
+  attributes:
+  # LDAP options
+  - oauthConfig.identityProviders.provider.url
+  - oauthConfig.identityProviders.provider.bindPassword
+  - oauthConfig.identityProviders.provider.bindDN
